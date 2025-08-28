@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\65936\\documents\\unreal projects\\pluginproject\\plugins\\shadeup_indirect_instancing\\source\\shadeup_indirect_instancing\\private\\shadeup_indirect_instancing.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\65936\\documents\\unreal projects\\pluginproject\\intermediate\\build\\win64\\x64\\pluginprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\65936\\documents\\unreal projects\\pluginproject\\plugins\\shadeup_indirect_instancing\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\shadeup_indirect_instancing\\definitions.shadeup_indirect_instancing.h",
+            "c:\\users\\65936\\documents\\unreal projects\\pluginproject\\plugins\\shadeup_indirect_instancing\\source\\shadeup_indirect_instancing\\public\\shadeup_indirect_instancing.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\65936\\documents\\unreal projects\\pluginproject\\plugins\\shadeup_custom_material_nodes\\source\\shadeup_custom_material_nodes\\private\\shadeup_custom_material_nodes.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\65936\\documents\\unreal projects\\pluginproject\\intermediate\\build\\win64\\x64\\pluginprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\65936\\documents\\unreal projects\\pluginproject\\plugins\\shadeup_custom_material_nodes\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\shadeup_custom_material_nodes\\definitions.shadeup_custom_material_nodes.h",
+            "c:\\users\\65936\\documents\\unreal projects\\pluginproject\\plugins\\shadeup_custom_material_nodes\\source\\shadeup_custom_material_nodes\\public\\shadeup_custom_material_nodes.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

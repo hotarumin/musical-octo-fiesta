@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ThermalVision.cpp.obj": [
+			"ThermalVision.init.gen.cpp.obj",
+			"ThermalVisionCustomShaderSubsystem.gen.cpp.obj",
+			"ThermalVisionCustomSceneViewExtension.cpp.obj",
+			"ThermalVisionRenderPass.cpp.obj",
+			"ThermalVision.cpp.obj",
+			"ThermalVisionCustomShaderSubsystem.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,53 @@
+#include "/Engine/Private/Common.ush"
+
+// Yilin notes: Scene color is rendered with lighting but no post processing (bloom, color grading, tone mapping, motion blur, etc)
+Texture2D<float4> SceneColorTexture;
+Texture2D<uint2> InputStencilTexture;
+
+float4 MainPS(float4 ScreenPos : SV_POSITION) : SV_Target0
+{
+    // Sample scene color at the current screen UV
+    float4 SceneColor = SceneColorTexture.Load(int3(ScreenPos.xy, 0));
+
+    // Convert to grayscale (luminance)
+    float luminance = dot(SceneColor.rgb, float3(0.299, 0.587, 0.114));
+
+    //uint2 stencil = InputStencilTexture.Load(uint3(ScreenPos.xy, 0));
+    //if (stencil.y == 1)
+    //{
+        // treat as "warm object"
+       // luminance = luminance * 3.0;
+    //}
+    
+    // Increase contrast for better heat separation
+    luminance = saturate((luminance) * 1.5);
+
+    // Map luminance to thermal gradient
+    float3 thermalColor;
+    if (luminance < 0.25)
+    {
+        // Cold = dark blue → cyan
+        float t = saturate(luminance / 0.25);
+        thermalColor = lerp(float3(0.0, 0.0, 0.3), float3(0.0, 1.0, 1.0), t);
+    }
+    else if (luminance < 0.5)
+    {
+        // Cool = cyan → green
+        float t = saturate((luminance - 0.25) / 0.25);
+        thermalColor = lerp(float3(0.0, 1.0, 1.0), float3(0.0, 1.0, 0.0), t);
+    }
+    else if (luminance < 0.85)
+    {
+        // Warm = green → yellow → red
+        float t = saturate((luminance - 0.5) / 0.35);
+        thermalColor = lerp(float3(0.0, 1.0, 0.0), float3(1.0, 0.0, 0.0), t);
+    }
+    else
+    {
+        // Hot = red → white
+        float t = saturate((luminance - 0.85) / 0.15);
+        thermalColor = lerp(float3(1.0, 0.0, 0.0), float3(1.0, 1.0, 1.0), t);
+    }
+
+    return float4(thermalColor, 1.0);
+}

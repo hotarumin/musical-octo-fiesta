@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.compute_module.cpp.obj": [
+			"compute_module.init.gen.cpp.obj",
+			"MySimpleComputeShader.gen.cpp.obj",
+			"compute_module.cpp.obj",
+			"MySimpleComputeShader.cpp.obj"
+		]
+	}
+}

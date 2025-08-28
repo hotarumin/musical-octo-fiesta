@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-shadeup_custom_material_nodes.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\65936\Documents\Unreal Projects\PluginProject\Intermediate\Build\Win64\x64\PluginProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\65936\Documents\Unreal Projects\PluginProject\Plugins\shadeup_custom_material_nodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\shadeup_custom_material_nodes\shadeup_custom_material_nodes.cpp.obj"
+"C:\Users\65936\Documents\Unreal Projects\PluginProject\Plugins\shadeup_custom_material_nodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\shadeup_custom_material_nodes\Default.rc2.res"
+/OUT:"C:\Users\65936\Documents\Unreal Projects\PluginProject\Plugins\shadeup_custom_material_nodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\shadeup_custom_material_nodes\UnrealEditor-shadeup_custom_material_nodes.lib"

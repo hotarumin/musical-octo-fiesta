@@ -1,0 +1,9 @@
+{
+	"BuildId": "33043543",
+	"Modules": 
+	{
+		"compute_module": "UnrealEditor-compute_module.dll",
+		"render_target": "UnrealEditor-render_target.dll",
+		"shadeup_compute_shader": "UnrealEditor-shadeup_compute_shader.dll"
+	}
+}

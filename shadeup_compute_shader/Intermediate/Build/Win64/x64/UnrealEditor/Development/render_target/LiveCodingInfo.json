@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.render_target.cpp.obj": [
+			"renderTargetShader.gen.cpp.obj",
+			"render_target.init.gen.cpp.obj",
+			"renderTargetShader.cpp.obj",
+			"render_target.cpp.obj"
+		]
+	}
+}

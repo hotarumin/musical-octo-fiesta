@@ -1,0 +1,18 @@
+#include "/Engine/Private/Common.ush"
+
+// Yilin notes: Scene color is rendered with lighting but no post processing (bloom, color grading, tone mapping, motion blur, etc)
+Texture2D<float4> SceneColorTexture;
+
+float4 MainPS(float4 SvPosition : SV_POSITION) : SV_Target0
+{
+    const float4 sceneColour = SceneColorTexture.Load(int3(SvPosition.xy, 0));
+
+    float grayscale = dot(sceneColour.rgb, float3(0.299, 0.587, 0.114));
+    // increase contrast
+    float contrast = 2.0; //>1 increases contrast, <1 decreases
+    grayscale = grayscale * contrast;
+    grayscale = saturate(grayscale); // clamp value to [0,1]
+    float3 nightVision = float3(0.1, 1.0, 0.1) * grayscale * 2.0;
+
+    return float4(nightVision, 1.0);
+}

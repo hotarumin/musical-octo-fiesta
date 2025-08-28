@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-compute_module.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\65936\Documents\Unreal Projects\PluginProject\Intermediate\Build\Win64\x64\PluginProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\65936\Documents\Unreal Projects\PluginProject\Plugins\shadeup_compute_shader\Intermediate\Build\Win64\x64\UnrealEditor\Development\compute_module\Module.compute_module.cpp.obj"
+"C:\Users\65936\Documents\Unreal Projects\PluginProject\Plugins\shadeup_compute_shader\Intermediate\Build\Win64\x64\UnrealEditor\Development\compute_module\compute_module.cpp.obj"
+"C:\Users\65936\Documents\Unreal Projects\PluginProject\Plugins\shadeup_compute_shader\Intermediate\Build\Win64\x64\UnrealEditor\Development\compute_module\MySimpleComputeShader.cpp.obj"
+"C:\Users\65936\Documents\Unreal Projects\PluginProject\Plugins\shadeup_compute_shader\Intermediate\Build\Win64\x64\UnrealEditor\Development\compute_module\Default.rc2.res"
+/OUT:"C:\Users\65936\Documents\Unreal Projects\PluginProject\Plugins\shadeup_compute_shader\Intermediate\Build\Win64\x64\UnrealEditor\Development\compute_module\UnrealEditor-compute_module.lib"
