@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\65936\\documents\\unreal projects\\pluginproject\\plugins\\thermalimaging\\source\\thermalimaging\\private\\thermalimaging.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\65936\\documents\\unreal projects\\pluginproject\\intermediate\\build\\win64\\x64\\pluginprojecteditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\65936\\documents\\unreal projects\\pluginproject\\plugins\\thermalimaging\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\thermalimaging\\definitions.thermalimaging.h",
+            "c:\\users\\65936\\documents\\unreal projects\\pluginproject\\plugins\\thermalimaging\\source\\thermalimaging\\public\\thermalimaging.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
