@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-ThermalImaging.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\65936\Documents\Unreal Projects\PluginProject\Intermediate\Build\Win64\x64\PluginProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.h.obj"
+"C:\Users\65936\Documents\Unreal Projects\PluginProject\Intermediate\Build\Win64\x64\PluginProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
 "C:\Users\65936\Documents\Unreal Projects\PluginProject\Plugins\ThermalImaging\Intermediate\Build\Win64\x64\UnrealEditor\Development\ThermalImaging\ThermalImaging.cpp.obj"
 "C:\Users\65936\Documents\Unreal Projects\PluginProject\Plugins\ThermalImaging\Intermediate\Build\Win64\x64\UnrealEditor\Development\ThermalImaging\Default.rc2.res"
 /OUT:"C:\Users\65936\Documents\Unreal Projects\PluginProject\Plugins\ThermalImaging\Intermediate\Build\Win64\x64\UnrealEditor\Development\ThermalImaging\UnrealEditor-ThermalImaging.lib"
