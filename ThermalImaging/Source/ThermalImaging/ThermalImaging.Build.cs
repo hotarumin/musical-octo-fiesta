@@ -29,8 +29,7 @@ public class ThermalImaging : ModuleRules
 				"CoreUObject", 
 				"Engine", 
 				"RenderCore", 
-				"RHI", 
-				"GameplayTags"
+				"RHI"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
