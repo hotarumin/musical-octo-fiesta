@@ -25,7 +25,12 @@ public class ThermalImaging : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core", "CoreUObject", "Engine", "RenderCore", "RHI"
+				"Core", 
+				"CoreUObject", 
+				"Engine", 
+				"RenderCore", 
+				"RHI", 
+				"GameplayTags"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
